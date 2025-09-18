@@ -261,6 +261,7 @@ ul {
     padding: 11px 18px 11px 18px;
 }
 
+/* Collection */
 .collection-banner .inner-tile {
     font-size: 18px;
     padding: 16px;
@@ -322,6 +323,24 @@ ul {
     }
 
     /* Collection */
+    .collection-list {
+
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+
+    .collection-item .collection-img {
+        aspect-ratio: 1 / 1;
+        overflow: hidden;
+    }
+
+    .collection-item .collection-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
 
 }
 
@@ -339,7 +358,17 @@ ul {
         padding: 15px 0 15px 0;
     }
 
+    .collection-item .collection-img {
+        aspect-ratio: 1 / 1;
+        overflow: hidden;
+    }
 
+    .collection-item .collection-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
 }
 
 @keyframes fadeIn {
