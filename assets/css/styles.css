@@ -763,6 +763,17 @@ footer .footer-left .item {
         -webkit-overflow-scrolling: touch;
 
     }
+
+    /* footer */
+    .footer .container .footer-inner {
+        flex-direction: column;
+
+    }
+
+    .footer-right {
+
+        margin-top: 48px;
+    }
 }
 
 @keyframes fadeIn {
