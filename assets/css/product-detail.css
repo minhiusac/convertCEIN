@@ -155,3 +155,18 @@ li {
 .nav-right .shopping-cart {
     margin-right: 14px;
 }
+
+.nav__mobile {
+    display: none;
+}
+
+/* mobile */
+@media screen and (max-width: 500px) {
+    .nav__pc {
+        display: none;
+    }
+
+    .nav__mobile {
+        display: block;
+    }
+}
