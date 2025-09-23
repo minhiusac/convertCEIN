@@ -259,6 +259,25 @@ ul {
 
 }
 
+.btn-prev,
+.btn-next {
+    position: absolute;
+    top: 40%;
+    font-size: 60px;
+    /* padding: 10px; */
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.btn-prev {
+    left: 20px;
+}
+
+.btn-next {
+    right: 20px;
+}
+
 
 .banner-text {
     position: absolute;
