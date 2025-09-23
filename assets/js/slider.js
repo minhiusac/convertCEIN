@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let currentIndex = 1;
     let slideWidth = 100;
+    // khoá silde
     let isMove = false
     // clone
     const firstClone = slides[0].cloneNode(true);

@@ -570,6 +570,10 @@ footer .footer-left .item {
 
 }
 
+.footer .footer-left .item a {
+    color: #000000;
+}
+
 .right-title {
     font-size: 16px;
     padding-bottom: 20px;
