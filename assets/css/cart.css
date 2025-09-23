@@ -368,6 +368,22 @@ p {
     background-color: #F0F0F0;
 }
 
+.amount input {
+    border: none;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+
+    background-color: #F0F0F0;
+}
+
+.amount input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .amount input:focus {
     outline: none;
 }
