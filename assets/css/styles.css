@@ -224,20 +224,52 @@ ul {
 
 /* Banner */
 .hero-banner {
-    width: 100%;
     position: relative;
+    width: 100%;
+    height: 712px;
+
 }
 
-.hero-banner .banner-img {
-    width: 100%
+.slider {
+    position: relative;
+    width: 100%;
+    height: 712px;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    transition: transform 0.8s ease-in-out;
 }
+
+.slides {
+    display: flex;
+    width: 100%;
+    transition: transform 0.8s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    height: 100%;
+}
+
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
 
 .banner-text {
     position: absolute;
     color: #FFFFFF;
     font-weight: 400;
+    max-width: 1272px;
+    width: 100%;
+    max-height: 96px;
+    height: 100%;
     font-size: 24px;
-    z-index: 1;
+    z-index: 2;
     bottom: 126px;
     padding-left: 32px;
 }
@@ -247,6 +279,13 @@ ul {
     background-color: #FFFFFF;
     margin-left: 32px;
     bottom: 64px;
+    max-width: 116px;
+    max-height: 42px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-banner .container .shop-now a {
@@ -262,6 +301,8 @@ ul {
 }
 
 /* Collection */
+
+
 .inner-title {
     font-size: 18px;
     padding: 16px;
@@ -292,6 +333,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    padding-bottom: 32px;
 }
 
 .product-card {
@@ -373,6 +415,10 @@ ul {
 }
 
 /* Banner 2 */
+.banner_2 {
+    padding-top: 32px;
+}
+
 .banner_2 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -582,6 +628,12 @@ footer .footer-left .item {
     /* Banner */
     .hero-banner {
         overflow: hidden;
+        height: 600px;
+    }
+
+    .slider,
+    .slide {
+        height: 600px;
     }
 
     .banner-img {
@@ -594,12 +646,19 @@ footer .footer-left .item {
     }
 
     .banner-text {
-        max-width: 200px;
+        max-width: 311px;
         padding-left: 32px;
+        margin-bottom: 20px;
+        max-height: 128px;
     }
 
     .shop-now {
         margin-left: 32px;
+        bottom: 64px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     /* Collection */
